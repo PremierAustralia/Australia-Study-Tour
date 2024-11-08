@@ -1,14 +1,14 @@
 import React from 'react'
 import brisbaneCityCenter from '@assets/Day1/brisbane-city-center.jpg'
 import brisbaneCityMuseum from '@assets/Day1/brisbane-city-museum.jpg'
-
+import Heading from '@components/Heading'
 type Props = {}
 
 function Day1({}: Props) {
   return (
     
-      <div className='p-4 flex'>
-        <h2 className='text-4xl text-blue-200'>D1 - 周一：布里斯班探索之旅</h2>
+      <div className='m-8 p-4 flex'>
+        <Heading title='D1 - 周一：布里斯班探索之旅' />
         <ul>
           <li>
             <strong>上午</strong>：抵达布里斯班，开启探索澳洲的第一站。参观布里斯班博物馆，了解澳洲的历史和文化背景。随后，漫步Southbank（南岸公园），体验布里斯班的自然与都市风光。
